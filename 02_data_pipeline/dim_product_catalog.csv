@@ -1,0 +1,85 @@
+product_id,product_name,brand,category,unit_price
+KDP_SKU_1001,Keurig Coffee Pods Pack 12ct,Keurig,Coffee Pods,34.12
+KDP_SKU_1002,Keurig Coffee Pods Pack 24ct,Keurig,Coffee Pods,7.09
+KDP_SKU_1003,Keurig Coffee Pods Pack 36ct,Keurig,Coffee Pods,18.09
+KDP_SKU_1004,Keurig Carbonated Soft Drinks Pack 12ct,Keurig,Carbonated Soft Drinks,15.81
+KDP_SKU_1005,Keurig Carbonated Soft Drinks Pack 24ct,Keurig,Carbonated Soft Drinks,38.39
+KDP_SKU_1006,Keurig Carbonated Soft Drinks Pack 36ct,Keurig,Carbonated Soft Drinks,35.76
+KDP_SKU_1007,Keurig Juice & Hydration Pack 12ct,Keurig,Juice & Hydration,45.25
+KDP_SKU_1008,Keurig Juice & Hydration Pack 24ct,Keurig,Juice & Hydration,9.82
+KDP_SKU_1009,Keurig Juice & Hydration Pack 36ct,Keurig,Juice & Hydration,24.55
+KDP_SKU_1010,Keurig Coffee Makers Pack 12ct,Keurig,Coffee Makers,7.3
+KDP_SKU_1011,Keurig Coffee Makers Pack 24ct,Keurig,Coffee Makers,15.61
+KDP_SKU_1012,Keurig Coffee Makers Pack 36ct,Keurig,Coffee Makers,28.23
+KDP_SKU_1013,Dr Pepper Coffee Pods Pack 12ct,Dr Pepper,Coffee Pods,7.16
+KDP_SKU_1014,Dr Pepper Coffee Pods Pack 24ct,Dr Pepper,Coffee Pods,14.74
+KDP_SKU_1015,Dr Pepper Coffee Pods Pack 36ct,Dr Pepper,Coffee Pods,34.58
+KDP_SKU_1016,Dr Pepper Carbonated Soft Drinks Pack 12ct,Dr Pepper,Carbonated Soft Drinks,29.97
+KDP_SKU_1017,Dr Pepper Carbonated Soft Drinks Pack 24ct,Dr Pepper,Carbonated Soft Drinks,15.69
+KDP_SKU_1018,Dr Pepper Carbonated Soft Drinks Pack 36ct,Dr Pepper,Carbonated Soft Drinks,31.92
+KDP_SKU_1019,Dr Pepper Juice & Hydration Pack 12ct,Dr Pepper,Juice & Hydration,41.6
+KDP_SKU_1020,Dr Pepper Juice & Hydration Pack 24ct,Dr Pepper,Juice & Hydration,6.28
+KDP_SKU_1021,Dr Pepper Juice & Hydration Pack 36ct,Dr Pepper,Juice & Hydration,41.45
+KDP_SKU_1022,Dr Pepper Coffee Makers Pack 12ct,Dr Pepper,Coffee Makers,36.71
+KDP_SKU_1023,Dr Pepper Coffee Makers Pack 24ct,Dr Pepper,Coffee Makers,20.96
+KDP_SKU_1024,Dr Pepper Coffee Makers Pack 36ct,Dr Pepper,Coffee Makers,12.83
+KDP_SKU_1025,Snapple Coffee Pods Pack 12ct,Snapple,Coffee Pods,48.11
+KDP_SKU_1026,Snapple Coffee Pods Pack 24ct,Snapple,Coffee Pods,20.8
+KDP_SKU_1027,Snapple Coffee Pods Pack 36ct,Snapple,Coffee Pods,10.07
+KDP_SKU_1028,Snapple Carbonated Soft Drinks Pack 12ct,Snapple,Carbonated Soft Drinks,10.25
+KDP_SKU_1029,Snapple Carbonated Soft Drinks Pack 24ct,Snapple,Carbonated Soft Drinks,43.28
+KDP_SKU_1030,Snapple Carbonated Soft Drinks Pack 36ct,Snapple,Carbonated Soft Drinks,32.55
+KDP_SKU_1031,Snapple Juice & Hydration Pack 12ct,Snapple,Juice & Hydration,41.5
+KDP_SKU_1032,Snapple Juice & Hydration Pack 24ct,Snapple,Juice & Hydration,38.1
+KDP_SKU_1033,Snapple Juice & Hydration Pack 36ct,Snapple,Juice & Hydration,29.58
+KDP_SKU_1034,Snapple Coffee Makers Pack 12ct,Snapple,Coffee Makers,48.81
+KDP_SKU_1035,Snapple Coffee Makers Pack 24ct,Snapple,Coffee Makers,22.65
+KDP_SKU_1036,Snapple Coffee Makers Pack 36ct,Snapple,Coffee Makers,30.28
+KDP_SKU_1037,Peet's Coffee Coffee Pods Pack 12ct,Peet's Coffee,Coffee Pods,42.48
+KDP_SKU_1038,Peet's Coffee Coffee Pods Pack 24ct,Peet's Coffee,Coffee Pods,33.2
+KDP_SKU_1039,Peet's Coffee Coffee Pods Pack 36ct,Peet's Coffee,Coffee Pods,43.91
+KDP_SKU_1040,Peet's Coffee Carbonated Soft Drinks Pack 12ct,Peet's Coffee,Carbonated Soft Drinks,31.39
+KDP_SKU_1041,Peet's Coffee Carbonated Soft Drinks Pack 24ct,Peet's Coffee,Carbonated Soft Drinks,36.99
+KDP_SKU_1042,Peet's Coffee Carbonated Soft Drinks Pack 36ct,Peet's Coffee,Carbonated Soft Drinks,8.01
+KDP_SKU_1043,Peet's Coffee Juice & Hydration Pack 12ct,Peet's Coffee,Juice & Hydration,16.02
+KDP_SKU_1044,Peet's Coffee Juice & Hydration Pack 24ct,Peet's Coffee,Juice & Hydration,18.72
+KDP_SKU_1045,Peet's Coffee Juice & Hydration Pack 36ct,Peet's Coffee,Juice & Hydration,9.5
+KDP_SKU_1046,Peet's Coffee Coffee Makers Pack 12ct,Peet's Coffee,Coffee Makers,16.23
+KDP_SKU_1047,Peet's Coffee Coffee Makers Pack 24ct,Peet's Coffee,Coffee Makers,10.43
+KDP_SKU_1048,Peet's Coffee Coffee Makers Pack 36ct,Peet's Coffee,Coffee Makers,18.22
+KDP_SKU_1049,Mott's Coffee Pods Pack 12ct,Mott's,Coffee Pods,33.96
+KDP_SKU_1050,Mott's Coffee Pods Pack 24ct,Mott's,Coffee Pods,22.04
+KDP_SKU_1051,Mott's Coffee Pods Pack 36ct,Mott's,Coffee Pods,22.28
+KDP_SKU_1052,Mott's Carbonated Soft Drinks Pack 12ct,Mott's,Carbonated Soft Drinks,15.21
+KDP_SKU_1053,Mott's Carbonated Soft Drinks Pack 24ct,Mott's,Carbonated Soft Drinks,17.74
+KDP_SKU_1054,Mott's Carbonated Soft Drinks Pack 36ct,Mott's,Carbonated Soft Drinks,47.2
+KDP_SKU_1055,Mott's Juice & Hydration Pack 12ct,Mott's,Juice & Hydration,34.5
+KDP_SKU_1056,Mott's Juice & Hydration Pack 24ct,Mott's,Juice & Hydration,32.79
+KDP_SKU_1057,Mott's Juice & Hydration Pack 36ct,Mott's,Juice & Hydration,13.52
+KDP_SKU_1058,Mott's Coffee Makers Pack 12ct,Mott's,Coffee Makers,38.07
+KDP_SKU_1059,Mott's Coffee Makers Pack 24ct,Mott's,Coffee Makers,13.18
+KDP_SKU_1060,Mott's Coffee Makers Pack 36ct,Mott's,Coffee Makers,22.69
+KDP_SKU_1061,Green Mountain Coffee Pods Pack 12ct,Green Mountain,Coffee Pods,49.53
+KDP_SKU_1062,Green Mountain Coffee Pods Pack 24ct,Green Mountain,Coffee Pods,34.15
+KDP_SKU_1063,Green Mountain Coffee Pods Pack 36ct,Green Mountain,Coffee Pods,30.5
+KDP_SKU_1064,Green Mountain Carbonated Soft Drinks Pack 12ct,Green Mountain,Carbonated Soft Drinks,36.11
+KDP_SKU_1065,Green Mountain Carbonated Soft Drinks Pack 24ct,Green Mountain,Carbonated Soft Drinks,43.08
+KDP_SKU_1066,Green Mountain Carbonated Soft Drinks Pack 36ct,Green Mountain,Carbonated Soft Drinks,40.13
+KDP_SKU_1067,Green Mountain Juice & Hydration Pack 12ct,Green Mountain,Juice & Hydration,16.07
+KDP_SKU_1068,Green Mountain Juice & Hydration Pack 24ct,Green Mountain,Juice & Hydration,7.4
+KDP_SKU_1069,Green Mountain Juice & Hydration Pack 36ct,Green Mountain,Juice & Hydration,19.87
+KDP_SKU_1070,Green Mountain Coffee Makers Pack 12ct,Green Mountain,Coffee Makers,17.77
+KDP_SKU_1071,Green Mountain Coffee Makers Pack 24ct,Green Mountain,Coffee Makers,15.27
+KDP_SKU_1072,Green Mountain Coffee Makers Pack 36ct,Green Mountain,Coffee Makers,47.48
+KDP_SKU_1073,7UP Coffee Pods Pack 12ct,7UP,Coffee Pods,44.55
+KDP_SKU_1074,7UP Coffee Pods Pack 24ct,7UP,Coffee Pods,19.84
+KDP_SKU_1075,7UP Coffee Pods Pack 36ct,7UP,Coffee Pods,34.83
+KDP_SKU_1076,7UP Carbonated Soft Drinks Pack 12ct,7UP,Carbonated Soft Drinks,23.4
+KDP_SKU_1077,7UP Carbonated Soft Drinks Pack 24ct,7UP,Carbonated Soft Drinks,46.23
+KDP_SKU_1078,7UP Carbonated Soft Drinks Pack 36ct,7UP,Carbonated Soft Drinks,26.18
+KDP_SKU_1079,7UP Juice & Hydration Pack 12ct,7UP,Juice & Hydration,17.64
+KDP_SKU_1080,7UP Juice & Hydration Pack 24ct,7UP,Juice & Hydration,16.84
+KDP_SKU_1081,7UP Juice & Hydration Pack 36ct,7UP,Juice & Hydration,30.69
+KDP_SKU_1082,7UP Coffee Makers Pack 12ct,7UP,Coffee Makers,17.55
+KDP_SKU_1083,7UP Coffee Makers Pack 24ct,7UP,Coffee Makers,31.71
+KDP_SKU_1084,7UP Coffee Makers Pack 36ct,7UP,Coffee Makers,45.49
