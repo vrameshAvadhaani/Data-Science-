@@ -42,3 +42,47 @@ digital-shelf-search-analytics-engine/
 │
 └── 06_product_management/              # Agile Product Ownership Artifacts
     └── PRD_Search_Optimization.md      # Product Requirement Document
+```
+## 📑 Core Product Telemetry (Event Taxonomy)
+
+Defined 5 primary search telemetry events in JSON Schema format attached to engineering user stories:
+
+| Event Name | Trigger Condition | Core Properties Captured |
+|--------|-----------------------------|------------------------------|
+| ```search_query_submitted```    | Search execution                      | ```query_string```, ```results_count```, ```latency_ms```, ```zero_results_flag```                       |
+| ```autocomplete_clicked``` | Suggestion click | ```suggested_term```, ```position_index``` |
+| ```search_result_clicked``` | Product card click | ```product_id```, ```brand```, ```rank_position```, ```is_sponsored``` |
+|```search_to_cart_added``` | Direct Add-to-Cart | ```product_id```, ```price```, ```time_to_add_seconds```|
+
+## 📊 Key Business & Search KPIs
++ Zero-Result Search Rate (%): Percentage of query submissions yielding 0 products.
+
++ Search Conversion Rate (%): Percentage of search sessions resulting in an Add-to-Cart action.
+
++ Click-Through Rate (CTR) at Position #1–3: Engagement density on top search rank positions.
+
++ Query Latency (P95 ms): Guardrail metric evaluating site latency impact.
+
+## 🧪 A/B Testing Experimentation Framework
+
+Evaluating Control A (Keyword) vs Variant B (AI Semantic Search):
+* Primary Hypothesis ($H_1$): Semantic search reduces zero-result searches and increases Search-to-Cart conversions by $>15\%$.
+* Statistical Rigor: Two-sample $Z$-test for proportions, Chi-Square ($\chi^2$) test for Sample Ratio Mismatch (SRM) detection, and 95% Confidence Intervals.
+
+## 🚀 How to Run the Pipeline
+1. Clone Repository:
+   ```Bash
+   git clone [https://github.com/vrameshavadhaani/digital-shelf-search-analytics-engine.git](https://github.com/vrameshavadhaani/digital-shelf-search-analytics-engine.git) cd digital-shelf-search-analytics-engine
+   ```
+2. Execute Data Pipeline:
+   ```Bash
+   python 02_data_pipeline/generate_messy_telemetry.py
+   python 02_data_pipeline/clean_telemetry_pipeline.py
+   ```
+3. Run A/B Test Evaluator:
+   ```Bash
+   python 04_experimentation_engine/ab_test_evaluator.py
+   ```
+
+## 👤 Author
+<b>Vikram Ramesh</b> <br/> Senior Business Analyst / Product Analytics Specialist <br/>[LinkedIn Profile](https://www.linkedin.com/in/vikramrameshavadhaani/) | [Portfolio Site](https://vrameshavadhaani.github.io/Portfolio/)
