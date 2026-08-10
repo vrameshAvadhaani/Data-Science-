@@ -1,0 +1,41 @@
+# ==========================================
+# Python & Environment Exclusions
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# Large Raw Data Files (Keep Repositories Lightweight)
+# ==========================================
+# Ignore large local CSV dumps except clean structured files if under 25MB
+02_data_pipeline/raw_data/*.csv
+02_data_pipeline/raw_data/*.json
+
+# ==========================================
+# Power BI & BI Tool Local Artifacts
+# ==========================================
+*.tmp
+*.lock
+~*.pbix
+
+# ==========================================
+# OS & Editor Specific Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+config.ini
+secrets.json
