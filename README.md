@@ -1,23 +1,44 @@
-# Business Analyst
-### Professional Summary
-With over 15+ years of IT industry experience, I have helped transform many businesses and industries, through engineering (software development) and in later part of my career with Product Management. <br/>
-With my Masters Degree on Business Analytics, I now take on understanding Data and generating key insights, providing confidence to decision makers across industries. <br/>
-To learn more about my professional experiences please find me on <a href="https://www.linkedin.com/in/vikramrameshavadhaani/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn: Vikram Ramesh Avadhaani</a>.
+# 🛒 Digital Shelf Search Analytics & Experimentation Engine
 
-### Project showcase
-<!-- <b>[Forecasting Transportation Cost Trends with Macro factors](https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous)</b> -->
-<a href="https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous" target="_blank" rel="noopener"><b>Forecasting Transportation Cost Trends with Macro factors</b></a>
-<br/>
-Industry: <b>Supply Chain, Transportation, Retail</b> 
-<br/>
-Tech Stack: <b>Python</b>, Statistical Methods: <b>Forecasting</b>
+> **Domain:** E-Commerce Search & Discovery | CPG Digital Shelf Optimization  
+> **Target Scenario:** Enterprise Beverage Catalog (Keurig, Dr Pepper, Snapple, Peet's Coffee)  
+> **Key Capabilities:** Event Telemetry Instrumentation, Automated Python Data Pipeline, SQL Funnel Analytics, A/B Testing Evaluation Engine, Power BI Scorecard  
 
-I built a time-series forecasting model to predict CPIETRANS using a SARIMAX framework with three external drivers: consumer confidence, average car loan rate, and crude oil price.<br/>
+---
 
-The purpose of the project was to test whether macroeconomic indicators could improve transportation cost forecasting beyond a simple historical trend model. This is especially relevant for supply chain, procurement, and budgeting decisions where transportation inflation can affect margins and planning.<br/>
+## 📌 Executive Summary
 
-<img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/ca64375d-67d0-4ceb-9f90-6cc4e90dc589" href="https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous" />
+Search and discovery are the core monetization drivers for direct-to-consumer (DTC) digital storefronts. Poor search relevance, high query latency, and zero-result search queries directly cause cart abandonment and customer churn.
 
-### Education
-MS in Business Analytics @ University of Dallas, Irving TX (2025) <br/>
-BE in Electronics & Communication @ VTU Karnataka, India (2006)
+This project implements an end-to-end **Product Analytics & Experimentation Framework** evaluating an **AI-Powered Semantic Search Engine (Variant B)** against a legacy **Keyword Search Engine (Control A)** across 1,000+ customer search sessions.
+
+---
+
+## 📐 Project Architecture & Directory Layout
+
+```text
+digital-shelf-search-analytics-engine/
+│
+├── README.md                           # Portfolio Executive Summary
+├── .gitignore                          # Git Exclusion Rules
+│
+├── 01_telemetry_specs/                 # Telemetry Instrumentation Specs
+│   └── telemetry_tracking_spec.json    # Engineering JSON Event Taxonomy
+│
+├── 02_data_pipeline/                   # Data Generation & Cleaning Pipeline
+│   ├── generate_messy_telemetry.py     # Native Messy Telemetry Generator
+│   └── clean_telemetry_pipeline.py     # Python ETL & Deduplication Pipeline
+│
+├── 03_sql_analytics/                   # Data Warehouse Queries (Star Schema)
+│   ├── schema_ddl.sql                  # Table DDL & Relationships
+│   └── search_kpi_queries.sql          # Zero-Result, CTR & Latency CTEs
+│
+├── 04_experimentation_engine/          # A/B Testing & Hypothesis Testing
+│   └── ab_test_evaluator.py            # Z-Test, p-value & SRM Validation
+│
+├── 05_dashboards/                      # Business Intelligence
+│   ├── Search_Relevance_Scorecard.pbix  # Interactive Power BI File
+│   └── screenshots/                    # Dashboard Visual Previews
+│
+└── 06_product_management/              # Agile Product Ownership Artifacts
+    └── PRD_Search_Optimization.md      # Product Requirement Document
