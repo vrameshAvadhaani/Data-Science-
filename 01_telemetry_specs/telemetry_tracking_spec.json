@@ -1,0 +1,47 @@
+{
+  "tracking_schema_version": "1.0.0",
+  "domain": "e_commerce_search_and_discovery",
+  "owner": "Search_Product_Squad",
+  "global_session_properties": {
+    "session_id": "string (UUID)",
+    "user_pseudo_id": "string (UUID or anonymized client ID)",
+    "device_type": "string (desktop | mobile | tablet)",
+    "experiment_variant": "string (Control_Keyword | Variant_B_AI_Semantic)"
+  },
+  "events": [
+    {
+      "event_name": "search_query_submitted",
+      "description": "Fired when a user executes a product search query on the catalog.",
+      "properties": {
+        "query_string": "string (e.g., 'vanilla dark roast k-cup')",
+        "category_context": "string (e.g., 'Coffee', 'Beverages', 'All')",
+        "results_count": "integer (e.g., 24)",
+        "zero_results_flag": "boolean (true if results_count == 0)",
+        "latency_ms": "integer (query execution speed in milliseconds)"
+      }
+    },
+    {
+      "event_name": "search_result_clicked",
+      "description": "Fired when a user clicks a product card on the Search Results Page (SERP).",
+      "properties": {
+        "query_string": "string",
+        "product_id": "string (SKU ID e.g., 'KDP_POD_8829')",
+        "product_name": "string (e.g., 'Green Mountain Coffee Dark Magic')",
+        "brand": "string (e.g., 'Green Mountain', 'Dr Pepper', 'Snapple')",
+        "rank_position": "integer (position index starting at 1)",
+        "is_sponsored": "boolean"
+      }
+    },
+    {
+      "event_name": "search_to_cart_added",
+      "description": "Fired when a user adds a product to cart directly from the search page.",
+      "properties": {
+        "query_string": "string",
+        "product_id": "string",
+        "price": "float",
+        "quantity": "integer",
+        "time_to_add_seconds": "integer (seconds elapsed from search submission to cart add)"
+      }
+    }
+  ]
+}
