@@ -5,7 +5,7 @@ With my Masters Degree on Business Analytics, I now take on understanding Data a
 To learn more about my professional experiences please find me on <a href="https://www.linkedin.com/in/vikramrameshavadhaani/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn: Vikram Ramesh Avadhaani</a>.
 
 ### Project showcase
-### 🛒 [Digital Shelf Search Analytics & Experimentation Engine](https://github.com/vrameshavadhaani/digital-shelf-search-analytics-engine)
+### 🛒 [Digital Shelf Search Analytics & Experimentation Engine](https://github.com/vrameshAvadhaani/Portfolio/tree/digital-shelf-search-analytics-engine)
 
 An end-to-end e-commerce product analytics solution designed to optimize catalog search discovery, reduce zero-result query drop-offs, and evaluate search relevance algorithms for CPG digital storefronts (e.g., Keurig Dr Pepper catalog).
 
