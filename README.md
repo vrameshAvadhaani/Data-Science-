@@ -5,8 +5,19 @@ With my Masters Degree on Business Analytics, I now take on understanding Data a
 To learn more about my professional experiences please find me on <a href="https://www.linkedin.com/in/vikramrameshavadhaani/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn: Vikram Ramesh Avadhaani</a>.
 
 ### Project showcase
-<!-- <b>[Forecasting Transportation Cost Trends with Macro factors](https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous)</b> -->
-<a href="https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous" target="_blank" rel="noopener"><b>Forecasting Transportation Cost Trends with Macro factors</b></a>
+### 🛒 [Digital Shelf Search Analytics & Experimentation Engine](https://github.com/vrameshavadhaani/digital-shelf-search-analytics-engine)
+
+An end-to-end e-commerce product analytics solution designed to optimize catalog search discovery, reduce zero-result query drop-offs, and evaluate search relevance algorithms for CPG digital storefronts (e.g., Keurig Dr Pepper catalog).
+
+* **Product Telemetry & Data Engineering:** Authored a production JSON event taxonomy (`telemetry_tracking_spec.json`) mapping 5 search events (`search_query_submitted`, `autocomplete_clicked`, `search_to_cart_added`). Developed a Python ETL pipeline that deduplicates and cleans native clickstream logs containing real-world double-clicks and missing user IDs.
+* **SQL Data Warehousing & KPIs:** Modeled a Star Schema in SQL using CTEs and Window Functions to isolate core search discovery metrics: **Zero-Result Search Rate**, **Search Conversion Rate**, **CTR at Position #1–3**, and **P95 Query Latency**.
+* **A/B Experimentation Engine:** Built an automated Python statistical evaluator executing **Two-Sample Z-Tests for Proportions** ($p < 0.05$, 95% CI) and **Chi-Square ($\chi^2$) Sample Ratio Mismatch (SRM) checks** comparing AI Semantic Search (Variant B) against legacy Keyword Search (Control A).
+* **BI & Agile Deliverables:** Designed an interactive 2-page Power BI executive scorecard and compiled an Agile Product Requirement Document (PRD) with prioritized Jira user stories for cross-functional engineering squads.
+
+**Tech Stack:** Python (Pandas, SciPy, Statsmodels), Advanced SQL, JSON Schema, Power BI (DAX), Git/GitHub, Agile/Jira
+<br/>
+### 🚚 [Forecasting Transportation Cost Trends with Macro factors](https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous)
+<!--<a href="https://github.com/vrameshAvadhaani/Portfolio/tree/Forecasting_Methods_CPIETRANS_with_exogenous" target="_blank" rel="noopener"><b>Forecasting Transportation Cost Trends with Macro factors</b></a>-->
 <br/>
 Industry: <b>Supply Chain, Transportation, Retail</b> 
 <br/>
