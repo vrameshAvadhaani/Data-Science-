@@ -34,7 +34,8 @@ digital-shelf-search-analytics-engine/
 │   └── search_kpi_queries.sql          # Zero-Result, CTR & Latency CTEs
 │
 ├── 04_experimentation_engine/          # A/B Testing & Hypothesis Testing
-│   └── ab_test_evaluator.py            # Z-Test, p-value & SRM Validation
+│   ├── ab_test_evaluator.py            # Z-Test, p-value & SRM Validation
+|   └── ab_test_output.png              # test results when ran locally
 │
 ├── 05_dashboards/                      # Business Intelligence
 │   ├── Search_Relevance_Scorecard.pbix  # Interactive Power BI File
