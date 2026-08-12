@@ -1,6 +1,0 @@
-Story_ID,User_Story_Description,Target_Squad,Priority,Reach_Sessions_Mo,Impact_Score_1to5,Confidence_Pct,Effort_Person_Weeks,RICE_Score
-SEARCH-101,As a mobile buyer I want real-time AI autocomplete suggestions so I can find KDP coffee pods faster,E-Commerce UX,Must Have,10000,4,0.90,2.0,18000.0
-SEARCH-102,As a search PM I want zero-result fallback recommendations so users see related items instead of blank pages,Merchandising,Must Have,1100,5,0.85,1.5,3116.7
-SEARCH-103,As a product analyst I want rank_position passed in JSON clickstream payloads to track SERP rank CTR,Telemetry Analytics,Should Have,10000,2,0.95,1.0,19000.0
-SEARCH-104,As an engineer I want automated Chi-Square SRM checks running daily to detect telemetry tracking bugs,Data Engineering,Should Have,5000,3,0.90,1.0,13500.0
-SEARCH-105,As a mobile buyer I want filter facets for roast level and brand so I can refine 20+ search results,E-Commerce UX,Could Have,8000,2,0.80,2.5,5120.0
