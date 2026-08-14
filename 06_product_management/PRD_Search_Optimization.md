@@ -54,6 +54,6 @@ During a 14-day split-traffic experiment ($N = 1,000$ search sessions split ~50/
 ---
 
 ### 5. Stakeholder Sign-Offs
-* **Product Manager:** Vikram Ramesh (Approved)
-* **Lead Search Engineer:** Approved
-* **UX Design Lead:** Approved
+* **Product Manager:** Vikram Ramesh (Awaiting stakeholder approval)
+* **Lead Search Engineer:** Pending Approval
+* **UX Design Lead:** Pending Approval
